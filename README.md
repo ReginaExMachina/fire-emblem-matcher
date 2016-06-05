@@ -40,9 +40,9 @@ Cannot handle Fire Emblem list:
 
   MIT.
   
-###Acknowledgements
+##Acknowledgements
  
- In addition to my own game-play experience, data on optimizing pairings gleaned from :
+ Besides my own game-play experience, data on optimizing pairings gleaned from :
  
  <ul>
     <li><a href ="http://fireemblem.wikia.com/wiki/Fire_Emblem_Wikia">Fire Emblem Wikia</a></li>
