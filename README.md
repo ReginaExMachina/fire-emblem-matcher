@@ -1,11 +1,15 @@
 # fire-emblem-matcher
 Optimizing character pairings.
 
-### Description
+##Description
 
 Matching Fire Emblem characters can be complicated -  especially if you care about good supports, the child's hair colour AND making the best possible child unit for combat.
 
 This program is designed to help players out.
+
+##Getting Started
+
+TBA.
 
 ###Gale–Shapley algorithm
 
