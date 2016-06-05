@@ -4,7 +4,7 @@
 
 prefs = {
   # GENTLEMEN
-  'laslow' => %w[femui azura peri camila luna felicia],
+  'laslow' => %w[femui azura peri camilla luna felicia],
   'keaton' => %w[camilla effie hana],
   'xander' => %w[femui charlotte hinoka luna sakura],
   'leo' => %w[felicia hinoka sakura],
