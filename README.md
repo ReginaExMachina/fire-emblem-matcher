@@ -1,6 +1,14 @@
 # fire-emblem-matcher
 Optimizing character pairings.
 
+###Contents
+    * <a href ="https://github.com/ReginaExMachina/fire-emblem-matcher/blob/master/README.md#description">Description</a>
+    * <a href = "https://github.com/ReginaExMachina/fire-emblem-matcher/blob/master/README.md#description">Getting Started</a>
+    * <a href = "https://github.com/ReginaExMachina/fire-emblem-matcher/blob/master/README.md#description">Gale-Shapley algorithm</a></li>
+    * <a href = "https://github.com/ReginaExMachina/fire-emblem-matcher/blob/master/README.md#authour">Author</a></li>
+    * <a href = "https://github.com/ReginaExMachina/fire-emblem-matcher/blob/master/README.md#license>License</a></li>
+    * <a href = "https://github.com/ReginaExMachina/fire-emblem-matcher/blob/master/README.md#acknowl">Acknowledgement</a></li>
+  
 ###Description
 
 Matching Fire Emblem characters can be complicated. And it doesn't get any easier if you care about good supports, the child's hair colour AND making the best possible child unit for combat.
@@ -45,9 +53,7 @@ Cannot handle Fire Emblem list:
  
  Besides my own game-play experience, data on optimizing pairings gleaned from :
  
- <ul>
-    <li><a href ="http://fireemblem.wikia.com/wiki/Fire_Emblem_Wikia">Fire Emblem Wikia</a></li>
-    <li>Serene Forest <a href = "https://serenesforest.net/wiki/index.php/Fates_Support_Conversations">support conversation database</a> for Fates</li>
-    <li>Gamefaqs message boards</li>
-    <li><a href ="https://www.reddit.com/r/fireemblem/comments/48u8b4/fe14_optimal_fates_pairings_birthright_conquest/">This fantastic MatLab program </a> created by <a href = "https://www.reddit.com/user/DoctorBandage">DoctorBandage</a> using <a href = "https://www.reddit.com/u/Shephen">Shephen</a>'s pairing guide.
- </ul>
+  * <a href ="http://fireemblem.wikia.com/wiki/Fire_Emblem_Wikia">Fire Emblem Wikia</a></li>
+  * Serene Forest <a href = "https://serenesforest.net/wiki/index.php/Fates_Support_Conversations">support conversation database</a> for Fates</li>
+  * Gamefaqs message boards</li>
+  * <a href ="https://www.reddit.com/r/fireemblem/comments/48u8b4/fe14_optimal_fates_pairings_birthright_conquest/">This fantastic MatLab program </a> created by <a href = "https://www.reddit.com/user/DoctorBandage">DoctorBandage</a> using <a href = "https://www.reddit.com/u/Shephen">Shephen</a>'s pairing guide.
