@@ -33,8 +33,8 @@ Cannot handle Fire Emblem list:
  In addition to my own game-play experience, data on optimizing pairings gleaned from :
  
  <ul>
-    <li>Fire Emblem Wikia</li>
-    <li>Serene Forest support conversation database</li>
+    <li><a href ="http://fireemblem.wikia.com/wiki/Fire_Emblem_Wikia">Fire Emblem Wikia</a></li>
+    <li>Serene Forest <a href = "https://serenesforest.net/wiki/index.php/Fates_Support_Conversations">support conversation database</a> for Fates</li>
     <li>Gamefaqs message boards</li>
     <li><a href ="https://www.reddit.com/r/fireemblem/comments/48u8b4/fe14_optimal_fates_pairings_birthright_conquest/">This fantastic MatLab program </a> created by <a href = "https://www.reddit.com/user/DoctorBandage">DoctorBandage</a> using <a href = "https://www.reddit.com/u/Shephen">Shephen</a>'s pairing guide.
  </ul>
