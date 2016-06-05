@@ -1,7 +1,7 @@
 # fire-emblem-matcher
 Optimizing character pairings.
 
-##Description
+###Description
 
 Matching Fire Emblem characters can be complicated -  especially if you care about good supports, the child's hair colour AND making the best possible child unit for combat.
 
@@ -14,9 +14,9 @@ TBA.
 ###Gale–Shapley algorithm
 
 <code>fire-emblem-matcher</code> uses the Gale-Shapley algorithm to make matches.
-With this algorithm the 'men' or the group proposing typically ends up with a matches that are higher up in their preference list than the 'women' or the group being proposed to.
+With this algorithm the 'men' (or the group proposing) typically ends up with a matches that are higher up in their preference list than the 'women' (aka the group being proposed to).
 
-Thefore in Awakening the proposer group should be the <b>female</b> characters, but in Fates in should be the <b>male</b> thereby prioritizing child-bearing units (so to speak) ensuring that they get the best possible matches.
+Thefore in Awakening the proposer group should be the <b>female</b> characters, but in Fates in should be the <b>male</b>. This prioritizes the child-bearing units (so to speak) so that they get the best possible matches.
 
 For more info check out the <a href = "https://en.wikipedia.org/wiki/Stable_marriage_problem">Wiki</a>
 
