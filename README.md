@@ -1,12 +1,17 @@
 # fire-emblem-matcher
 Optimizing character pairings.
 
-###Description
+### Description
 
+Matching Fire Emblem characters can be complicated -  especially if you care about good supports, the child's hair colour AND making the best possible child unit for combat.
+
+This program is designed to help players out.
 
 ###Gale–Shapley algorithm
 
-<a href = "https://en.wikipedia.org/wiki/Stable_marriage_problem">Wiki</a>
+Inspired by a Hannah Fry book I read, <code>fire-emblem-matcher</code> uses the Gale-Shapley algorithm to make it's matches.
+
+For more info check out the <a href = "https://en.wikipedia.org/wiki/Stable_marriage_problem">Wiki</a>
 
 ###Issues
 
