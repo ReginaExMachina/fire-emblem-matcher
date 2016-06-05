@@ -22,7 +22,7 @@ Cannot handle Fire Emblem list:
     <li>Rachel Day</li>
   </ul>
     
- ###Acknowledgements
+###Acknowledgements
  
  In addition to my own game-play experience, data on optimizing pairings gleaned from :
  
