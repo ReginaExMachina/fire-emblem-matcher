@@ -1,8 +1,10 @@
 # fire-emblem-matcher
 Optimizing character pairings.
 
+###Description
 
-##Gale–Shapley algorithm
+
+###Gale–Shapley algorithm
 
 <a href = "https://en.wikipedia.org/wiki/Stable_marriage_problem">Wiki</a>
 
@@ -21,7 +23,11 @@ Cannot handle Fire Emblem list:
   <ul>
     <li>Rachel Day</li>
   </ul>
-    
+
+###License
+
+  MIT.
+  
 ###Acknowledgements
  
  In addition to my own game-play experience, data on optimizing pairings gleaned from :
