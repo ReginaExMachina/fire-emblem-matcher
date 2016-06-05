@@ -2,12 +2,13 @@
 Optimizing character pairings.
 
 ###Contents
+   
     * <a href ="https://github.com/ReginaExMachina/fire-emblem-matcher/blob/master/README.md#description">Description</a>
     * <a href = "https://github.com/ReginaExMachina/fire-emblem-matcher/blob/master/README.md#description">Getting Started</a>
-    * <a href = "https://github.com/ReginaExMachina/fire-emblem-matcher/blob/master/README.md#description">Gale-Shapley algorithm</a></li>
-    * <a href = "https://github.com/ReginaExMachina/fire-emblem-matcher/blob/master/README.md#authour">Author</a></li>
-    * <a href = "https://github.com/ReginaExMachina/fire-emblem-matcher/blob/master/README.md#license>License</a></li>
-    * <a href = "https://github.com/ReginaExMachina/fire-emblem-matcher/blob/master/README.md#acknowl">Acknowledgement</a></li>
+    * <a href = "https://github.com/ReginaExMachina/fire-emblem-matcher/blob/master/README.md#description">Gale-Shapley algorithm</a>
+    * <a href = "https://github.com/ReginaExMachina/fire-emblem-matcher/blob/master/README.md#authour">Author</a>
+    * <a href = "https://github.com/ReginaExMachina/fire-emblem-matcher/blob/master/README.md#license>License</a>
+    * <a href = "https://github.com/ReginaExMachina/fire-emblem-matcher/blob/master/README.md#acknowledgements">Acknowledgements</a>
   
 ###Description
 
