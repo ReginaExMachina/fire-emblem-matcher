@@ -36,5 +36,5 @@ Cannot handle Fire Emblem list:
     <li>Fire Emblem Wikia</li>
     <li>Serene Forest support conversation database</li>
     <li>Gamefaqs message boards</li>
-    <li>this</li>
+    <li><a href ="https://www.reddit.com/r/fireemblem/comments/48u8b4/fe14_optimal_fates_pairings_birthright_conquest/">This fantastic MatLab program </a> created by <a href = "https://www.reddit.com/user/DoctorBandage">DoctorBandage</a> using <a href = "https://www.reddit.com/u/Shephen">Shephen</a>'s pairing guide.
  </ul>
