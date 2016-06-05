@@ -1,6 +1,6 @@
 # Public: Fire Emblem Fates characters and their preferences.
 # 
-# For fire-emblem-matcher
+# For fire-emblem-matcher, does not include none.
 
 prefs = {
   # GENTLEMEN
