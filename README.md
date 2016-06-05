@@ -3,7 +3,7 @@ Optimizing character pairings.
 
 ###Description
 
-Matching Fire Emblem characters can be complicated -  especially if you care about good supports, the child's hair colour AND making the best possible child unit for combat.
+Matching Fire Emblem characters can be complicated. And it doesn't get any easier if you care about good supports, the child's hair colour AND making the best possible child unit for combat.
 
 This program is designed to help players out.
 
@@ -17,7 +17,7 @@ TBA.
 
 With this algorithm the 'men' (or the group proposing) typically ends up with a matches that are higher up in their preference list than the 'women' (aka the group being proposed to).
 
-Thefore in Awakening the proposer group should be the <b>female</b> characters, but in Fates in should be the <b>male</b>. This prioritizes the child-bearing units (so to speak) so that they get the best possible matches.
+Thefore in Awakening the proposer group is the <b>female characters</b>, but in Fates it's the <b>males</b>. This prioritizes the child-bearing units (so to speak) so that they get the best possible matches.
 
 For more info check out the <a href = "https://en.wikipedia.org/wiki/Stable_marriage_problem">Wiki</a>.
 
