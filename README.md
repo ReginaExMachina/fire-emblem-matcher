@@ -33,6 +33,8 @@ For more info check out the <a href = "https://en.wikipedia.org/wiki/Stable_marr
 
 ###Issues
 
+Does not yet include the player unit's choice or the effect it would have on the remaining matches.
+
 ###Author
 
   <ul>
