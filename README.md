@@ -7,6 +7,7 @@ Optimizing character pairings.
     <li><a href = "https://github.com/ReginaExMachina/fire-emblem-matcher/blob/master/README.md#getting-started">Getting Started</a></li>
     <li><a href = "https://github.com/ReginaExMachina/fire-emblem-matcher/blob/master/README.md#galeshapley-algorithm">Gale-Shapley algorithm</a></li>
     <li><a href = "https://github.com/ReginaExMachina/fire-emblem-matcher/blob/master/README.md#authour">Author</a></li>
+    <li><a href = "https://github.com/ReginaExMachina/fire-emblem-matcher/blob/master/README.md#issues">Isssues</a></li>
     <li><a href = "https://github.com/ReginaExMachina/fire-emblem-matcher/blob/master/README.md#license">License</a></li>
     <li><a href = "https://github.com/ReginaExMachina/fire-emblem-matcher/blob/master/README.md#acknowledgements">Acknowledgements</a></li>
    </ul>
