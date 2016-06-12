@@ -1,4 +1,4 @@
-# Public: Awakening characters and their preferences.
+# Deprecated: Awakening characters and their preferences.
 
 prefs = {
   # LADIES
