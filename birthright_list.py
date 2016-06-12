@@ -6,9 +6,9 @@
 # INITIALIZE THE CHARACTERS' DATA
 
 parent_prefs = {
-    'tsubaki': ['femui', 'luna', 'hinoka', 'azura', 'felicia', 'hana', 'oboro'],
-    'nishiki': ['femui', 'azura', 'sakura', 'hana', 'mozu'],
-    'jakob': ['femui', 'azura', 'sakura', 'nyx'],
+    'tsubaki': ['luna', 'hinoka', 'azura', 'felicia', 'hana', 'oboro'],
+    'nishiki': ['azura', 'sakura', 'hana', 'mozu'],
+    'jakob': ['azura', 'sakura', 'nyx'],
     'silas': ['luna', 'effie', 'hinoka'],
     'kaze': ['mozu', 'beruka', 'rinkah'],
     'ryoma': ['kagero', 'orochi', 'camilla'],
@@ -20,7 +20,7 @@ parent_prefs = {
 }
 
 partner_prefs = {
-    'azura': ['mamui', 'laslow', 'jakob', 'nishiki', 'takumi'],
+    'azura': ['laslow', 'jakob', 'nishiki', 'takumi'],
     'felicia': ['leo', 'takumi', 'jakob', 'azama'],
     'hinoka': ['leo', 'xander', 'hinata', 'silas'],
     'sakura': ['xander', 'jakob', 'leo', 'hayato', 'nishiki'],
