@@ -53,7 +53,7 @@ def matchmaker():
                         # Proposer has more choices to ask...
                         parentfree.append(parent_unit)
             except ValueError:
-                logging.debug("No matche possible.")
+                logging.debug("No match possible.")
     return engaged
 
 
