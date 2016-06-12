@@ -1,4 +1,4 @@
-# fire-emblem-matcher
+# fire-emblem-matchmaker
 Optimizing character pairings.
 
 ###Contents
@@ -14,7 +14,7 @@ Optimizing character pairings.
 
 ###Description
 
-Matching Fire Emblem characters can be complicated. And it doesn't get any easier if you care about good supports, the child's hair colour AND making the best possible child unit for combat.
+Matching Fire Emblem characters can be complicated. And it doesn't get any easier if you care about good supports AND making the best possible child unit for combat.
 
 This program is designed to help players out.
 
@@ -24,7 +24,7 @@ TBA.
 
 ###Gale–Shapley algorithm
 
-<code>fire-emblem-matcher</code> uses the Gale-Shapley algorithm to make matches.
+<code>fire-emblem-matchmaker</code> uses the Gale-Shapley algorithm to make matches.
 
 With this algorithm the 'men' (or the group proposing) typically ends up with a matches that are higher up in their preference list than the 'women' (aka the group being proposed to).
 
