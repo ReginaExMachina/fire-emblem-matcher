@@ -1,4 +1,4 @@
-# Public: Fire Emblem Fates characters and their preferences.
+# Deprecated: Fire Emblem Fates characters and their preferences.
 
 prefs = {
   # GENTLEMEN
