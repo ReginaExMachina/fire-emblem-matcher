@@ -6,11 +6,11 @@
 # INITIALIZE THE CHARACTERS' DATA
 
 parent_prefs = {
-    'laslow': ['femui', 'azura', 'peri', 'camilla', 'luna', 'felicia'],
+    'laslow': ['azura', 'peri', 'camilla', 'luna', 'felicia'],
     'keaton': ['camilla', 'effie', 'hana'],
-    'xander': ['femui', 'charlotte', 'hinoka', 'luna', 'sakura'],
+    'xander': ['charlotte', 'hinoka', 'luna', 'sakura'],
     'leo' :['felicia', 'hinoka', 'sakura'],
-    'jakob': ['femui', 'azura', 'sakura', 'nyx'],
+    'jakob': ['azura', 'sakura', 'nyx'],
     'niles': ['camilla', 'mozu'],
     'odin': ['elise', 'nyx', 'orochi'],
     'silas': ['luna', 'effie', 'hinoka'],
@@ -20,7 +20,7 @@ parent_prefs = {
 }
 
 partner_prefs = {
-    'azura': ['mamui', 'laslow', 'jakob', 'nishiki', 'takumi'],
+    'azura': ['laslow', 'jakob', 'nishiki', 'takumi'],
     'camilla': ['keaton', 'niles', 'jakob'],
     'elise': ['odin', 'takumi', 'laslow'],
     'felicia': ['leo', 'takumi', 'jakob', 'azama'],
