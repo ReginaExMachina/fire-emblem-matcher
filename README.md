@@ -52,5 +52,6 @@ Does not yet include the player unit's choice or the effect it would have on the
  
   * <a href ="http://fireemblem.wikia.com/wiki/Fire_Emblem_Wikia">Fire Emblem Wikia</a></li>
   * Serene Forest <a href = "https://serenesforest.net/wiki/index.php/Fates_Support_Conversations">support conversation database</a> for Fates</li>
+  * <a href = "https://www.reddit.com/r/fireemblem/comments/1fle46/the_ideal_parent_day_14_recap/">Reddit</a>
   * Gamefaqs message boards</li>
   * <a href ="https://www.reddit.com/r/fireemblem/comments/48u8b4/fe14_optimal_fates_pairings_birthright_conquest/">This fantastic MatLab program </a> created by <a href = "https://www.reddit.com/user/DoctorBandage">DoctorBandage</a> using <a href = "https://www.reddit.com/u/Shephen">Shephen</a>'s pairing guide.
