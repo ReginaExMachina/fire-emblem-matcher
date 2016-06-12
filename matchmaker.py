@@ -8,10 +8,7 @@
 #
 # EXAMPLE:
 #
-# Azura is engaged to Laslow
-# Beruka is engaged to Kaze
-# Camilla is engaged to Keaton
-# Charlotte is engaged to Xander
+# {'orochi': 'saizo', 'nyx': 'hayato', 'felicia': 'leo'...}
 # ...
 #
 # Returns a dictionary of matched pairs.
