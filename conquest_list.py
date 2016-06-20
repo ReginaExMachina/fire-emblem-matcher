@@ -5,30 +5,42 @@
 
 # INITIALIZE THE CHARACTERS' DATA
 
+# Public: All Fates characters and their preferences for Relevations.
+
+
+########################################################################
+
+# INITIALIZE THE CHARACTERS' DATA
+
+
+########################################################################
+
+# INITIALIZE THE CHARACTERS' DATA
+
 parent_prefs = {
-    'laslow': ['azura', 'peri', 'camilla', 'luna', 'felicia'],
-    'keaton': ['camilla', 'effie', 'hana'],
-    'xander': ['charlotte', 'hinoka', 'luna', 'sakura'],
-    'leo' :['felicia', 'hinoka', 'sakura'],
-    'jakob': ['azura', 'sakura', 'nyx'],
-    'niles': ['camilla', 'mozu'],
-    'odin': ['elise', 'nyx', 'orochi'],
-    'silas': ['luna', 'effie', 'hinoka'],
-    'kaze': ['mozu', 'beruka', 'rinkah'],
-    'benny': ['peri', 'charlotte', 'camilla'],
-    'arthur': ['effie', 'beruka', 'camilla', 'nyx'],
+    'Laslow': ['Azura', 'Peri', 'Camilla', 'Luna', 'Felicia'],
+    'Keaton': ['Camilla', 'Effie', 'Charlotte'],
+    'Xander': ['Charlotte', 'Luna', 'Felicia'],
+    'Leo' :['Felicia', 'Nyx'],
+    'Jakob': ['Azura', 'Nyx'],
+    'Niles': ['Camilla', 'Mozu', 'Nyx'],
+    'Odin': ['Elise', 'Nyx'],
+    'Silas': ['Luna', 'Effie'],
+    'Kaze': ['Mozu', 'Azura'],
+    'Benny': ['Peri', 'Charlotte', 'Camilla'],
+    'Arthur': ['Effie', 'Beruka', 'Camilla', 'Nyx'],
 }
 
 partner_prefs = {
-    'azura': ['laslow', 'jakob', 'nishiki', 'takumi'],
-    'camilla': ['keaton', 'niles', 'jakob'],
-    'elise': ['odin', 'takumi', 'laslow'],
-    'felicia': ['leo', 'takumi', 'jakob', 'azama'],
-    'luna': ['tsubaki', 'silas', 'laslow', 'niles', 'xander'],
-    'effie': ['keaton', 'silas', 'arthur'],
-    'beruka': ['saizo', 'azama', 'niles', 'arthur'],
-    'peri': ['laslow', 'benny', 'xander'],
-    'charlotte': ['xander', 'jakob', 'keaton', 'laslow'],
-    'mozu': ['nishiki', 'niles', 'kaze'],
-    'nyx': ['hayato', 'niles', 'odin']
+    'Azura': ['Laslow', 'Jakob', 'Kaze'],
+    'Camilla': ['Keaton', 'Niles', 'Jakob', 'Benny'],
+    'Elise': ['Odin', 'Laslow'],
+    'Felicia': ['Leo', 'Jakob', 'Xander'],
+    'Luna': ['Silas', 'Laslow', 'Xander', 'Niles', 'Jakob'],
+    'Effie': ['Keaton', 'Silas', 'Arthur'],
+    'Beruka': ['Niles', 'Arthur'],
+    'Peri': ['Laslow', 'Benny', 'Xander'],
+    'Charlotte': ['Xander', 'Keaton', 'Laslow', 'Jakob', 'Benny'],
+    'Mozu': ['Niles', 'Kaze'],
+    'Nyx': ['Niles', 'Odin', 'Leo']
     }
