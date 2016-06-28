@@ -5,18 +5,6 @@
 
 # INITIALIZE THE CHARACTERS' DATA
 
-# Public: All Fates characters and their preferences for Relevations.
-
-
-########################################################################
-
-# INITIALIZE THE CHARACTERS' DATA
-
-
-########################################################################
-
-# INITIALIZE THE CHARACTERS' DATA
-
 parent_prefs = {
     'Laslow': ['Azura', 'Peri', 'Camilla', 'Luna', 'Felicia'],
     'Keaton': ['Camilla', 'Effie', 'Charlotte'],
