@@ -2,7 +2,6 @@
 #
 # Returns a list of matched characters.
 
-
 ########################################################################
 
 import copy
@@ -10,62 +9,17 @@ import logging, sys
 
 ########################################################################
 
-# INITIALIZE THE CHARACTERS' DATA
-
-parent_prefs = {
-    'laslow': ['azura', 'peri', 'camilla', 'luna', 'felicia'],
-    'keaton': ['camilla', 'effie', 'hana'],
-    'xander': ['charlotte', 'hinoka', 'luna', 'sakura'],
-    'leo' :['felicia', 'hinoka', 'sakura'],
-    'tsubaki': ['luna', 'hinoka', 'azura', 'felicia', 'hana', 'oboro'],
-    'nishiki': ['azura', 'sakura', 'hana', 'mozu'],
-    'jakob': ['azura', 'sakura', 'nyx'],
-    'niles': ['camilla', 'mozu'],
-    'odin': ['elise', 'nyx', 'orochi'],
-    'silas': ['luna', 'effie', 'hinoka'],
-    'kaze': ['mozu', 'beruka', 'rinkah'],
-    'benny': ['peri', 'charlotte', 'camilla'],
-    'arthur': ['effie', 'beruka', 'camilla', 'nyx'],
-    'ryoma': ['kagero', 'orochi', 'camilla'],
-    'takumi': ['azura', 'felicia', 'elise'],
-    'saizo': ['orochi', 'beruka', 'mozu'],
-    'hinata': ['hana', 'hinoka', 'setsuna'],
-    'azama': ['effie', 'felicia', 'setsuna', 'beruka'],
-    'hayato': ['nyx', 'sakura', 'oboro']
-}
-
-partner_prefs = {
-    'azura': ['mamui', 'laslow', 'jakob', 'nishiki', 'takumi'],
-    'camilla': ['keaton', 'niles', 'jakob'],
-    'elise': ['odin', 'takumi', 'laslow'],
-    'felicia': ['leo', 'takumi', 'jakob', 'azama'],
-    'luna': ['tsubaki', 'silas', 'laslow', 'niles', 'xander'],
-    'hinoka': ['leo', 'xander', 'hinata', 'silas'],
-    'sakura': ['xander', 'jakob', 'leo', 'hayato', 'nishiki'],
-    'effie': ['keaton', 'silas', 'arthur'],
-    'beruka': ['saizo', 'azama', 'niles', 'arthur'],
-    'kagero': ['ryoma', 'saizo', 'jakob'],
-    'peri': ['laslow', 'benny', 'xander'],
-    'hana': ['ryoma', 'keaton', 'hinata', 'tsubaki'],
-    'oboro': ['takumi', 'tsubaki', 'hayato'],
-    'setsuna': ['hinata', 'jakob', 'azama'],
-    'rinkah': ['silas', 'kaze', 'nishiki', 'ryoma'],
-    'charlotte': ['xander', 'jakob', 'keaton', 'laslow'],
-    'mozu': ['nishiki', 'niles', 'kaze'],
-    'orochi': ['saizo', 'ryoma', 'silas', 'jakob'],
-    'nyx': ['hayato', 'niles', 'odin']
-    }
-
-# This part is where the data can be seperated based on games 
-parent = sorted(parent_prefs.keys())
-partner = sorted(partner_prefs.keys())
-
-
-########################################################################
-
 # MATCH MAKING FUNCTION
 
 def matchmaker():
+    ''' Matches characters using the Gale-Shapley algorithm.
+
+    parent - Character proposing.
+    partner - Character evaluating proposals.
+    engaged - Dictionary of match-mated characters.
+
+    Returns engaged with all parent characters matched. 
+    '''
     parentfree = parent[:]
     engaged  = {}
     parent_prefs_list = copy.deepcopy(parent_prefs)
@@ -99,21 +53,51 @@ def matchmaker():
                         # Proposer has more choices to ask...
                         parentfree.append(parent_unit)
             except ValueError:
-                logging.debug("Matching...")
+                logging.debug("No match possible...")
     return engaged
 
 ########################################################################
 
-# PROGRAM START MENU
+# MAIN MENU
 
-print('Fire Emblem Match Maker')
+title = 'Fire Emblem Matchmaker\n\n'
+options = 'Fates Conquest [C] | Birthright [B] | Relevations [R] or Awakening [A]'
+menu_text = title + options
+
+print(menu_text.center(50))
+
+
+# BRANCHING
+
+choice = raw_input(' ')
+if choice == 'A':
+    from awakening_list import *
+elif choice == 'B':
+    from birthright_list import *
+elif choice == 'C':
+    from conquest_list import *
+elif choice == 'R':
+    from relevations_list import *
+else:
+    logging.debug("Invalid user input.")
+    print("N/A")
+
+parent = sorted(parent_prefs.keys())
+partner = sorted(partner_prefs.keys())
+
+
+########################################################################
 
 # PERFORMS THE MATCH-MAKING
+
 engaged = matchmaker()
 
+
 # PRINT OUT RESULTS 
-print('\nCouples:')
+
+print('\nMatches:')
 print('  ' + '\n  '.join('%s is engaged to %s' % couple
                           for couple in sorted(engaged.items())))
+                          
 # EXIT
 end_program = raw_input('\nPress any key to end program.')
