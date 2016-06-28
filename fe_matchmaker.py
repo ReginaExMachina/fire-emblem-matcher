@@ -66,6 +66,7 @@ menu_text = title + options
 
 print(menu_text.center(50))
 
+########################################################################
 
 # BRANCHING
 
@@ -92,12 +93,16 @@ partner = sorted(partner_prefs.keys())
 
 engaged = matchmaker()
 
+########################################################################
 
-# PRINT OUT RESULTS 
+# DISPLAYS RESULTS 
 
 print('\nMatches:')
 print('  ' + '\n  '.join('%s is engaged to %s' % couple
                           for couple in sorted(engaged.items())))
-                          
+ 
+ 
+########################################################################
+
 # EXIT
 end_program = raw_input('\nPress any key to end program.')
