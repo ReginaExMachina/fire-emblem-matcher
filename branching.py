@@ -8,7 +8,7 @@
 
 ########################################################################
 
-choice = raw_input('Which game?')
+choice = raw_input('...')
 if choice == 'a':
     from awakening_list import *
 elif choice == 'b':
