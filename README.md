@@ -34,7 +34,7 @@ For more info check out the <a href = "https://en.wikipedia.org/wiki/Stable_marr
 
 ###Issues
 
-Does not yet include the player unit's choice (ie. Kamui) or the effect it would have on the remaining matches.
+Recording no match possible for some characters despite having free options available. Issue compounded when player picks a partner unit as a fiance.
 
 ###Author
 
