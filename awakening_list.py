@@ -6,30 +6,30 @@
 # INITIALIZE THE CHARACTERS' DATA
 
 parent_prefs = {
-    'cordelia': ['lonqu', 'stahl', 'henry'],
-    'olivia': ['chrom', 'frederick', 'lonqu'],
-    'nowi': ['kellam', 'donnel'],
-    'sully': ['donnel', 'kellam', 'libra'],
-    'lissa': ['libra', 'vaike', 'ricken', 'henry', 'lonqu'],
-    'miriel': ['ricken', 'kellam', 'gregor'],
-    'cherche': ['gregor', 'stahl', 'virion'],
-    'sumia': ['chrom', 'frederick', 'henry', 'gaius'],
-    'tharja': ['gaius', 'libra', 'henry', 'virion'],
-    'panne': ['lonqu', 'stahl', 'vaike', 'gregor'],
-    'maribelle': ['henry', 'libra', 'donnel', 'lonqu', 'chrom']
+    'Cordelia': ['Lonqu', 'Stahl', 'Henry'],
+    'Olivia': ['Chrom', 'Frederick', 'Lonqu'],
+    'Nowi': ['Kellam', 'Donnel'],
+    'Sully': ['Donnel', 'Kellam', 'Libra'],
+    'Lissa': ['Libra', 'Vaike', 'Ricken', 'Henry', 'Lonqu'],
+    'Miriel': ['Ricken', 'Kellam', 'Gregor'],
+    'Cherche': ['Gregor', 'Stahl', 'Virion'],
+    'Sumia': ['Chrom', 'Frederick', 'Henry', 'Gaius'],
+    'Tharja': ['Gaius', 'Libra', 'Henry', 'Virion'],
+    'Panne': ['Lonqu', 'Stahl', 'Vaike', 'Gregor'],
+    'Maribelle': ['Henry', 'Libra', 'Donnel', 'Lonqu', 'Chrom']
 }
  
 partner_prefs = {
-    'chrom': ['olivia', 'sumia'],
-    'lonqu': ['cordelia', 'olivia', 'sully', 'maribelle'],
-    'donnel': ['nowi', 'sully', 'maribelle'],
-    'henry': ['sumia', 'cordelia', 'lissa', 'maribelle', 'tharja'],
-    'libra': ['sully', 'lissa', 'maribelle', 'tharja'],
-    'stahl': ['cordelia', 'olivia', 'cherche', 'panne'],
-    'kellam': ['miriel', 'sully', 'nowi', 'cordelia'],
-    'gregor': ['cordelia', 'panne', 'cherche', 'lissa'],
-    'frederick': ['olivia', 'sumia', 'cordelia'],
-    'vaike': ['lissa', 'panne'],
-    'gaius': ['tharja', 'cordelia'],
-    'virion': ['tharja', 'cherche', 'sully'] 
+    'Chrom': ['Olivia', 'Sumia'],
+    'Lonqu': ['Cordelia', 'Olivia', 'Sully', 'Maribelle'],
+    'Donnel': ['Nowi', 'Sully', 'Maribelle'],
+    'Henry': ['Sumia', 'Cordelia', 'Lissa', 'Maribelle', 'Tharja'],
+    'Libra': ['Sully', 'Lissa', 'Maribelle', 'Tharja'],
+    'Stahl': ['Cordelia', 'Olivia', 'Cherche', 'Panne'],
+    'Kellam': ['Miriel', 'Sully', 'Nowi', 'Cordelia'],
+    'Gregor': ['Cordelia', 'Panne', 'Cherche', 'Lissa'],
+    'Frederick': ['Olivia', 'Sumia', 'Cordelia'],
+    'Vaike': ['Lissa', 'Panne'],
+    'Gaius': ['Tharja', 'Cordelia'],
+    'Virion': ['Tharja', 'Cherche', 'Sully'] 
 }
