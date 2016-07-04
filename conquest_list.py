@@ -14,9 +14,9 @@ parent_prefs = {
     'Niles': ['Camilla', 'Mozu', 'Nyx'],
     'Odin': ['Elise', 'Nyx'],
     'Silas': ['Luna', 'Effie'],
-    'Kaze': ['Mozu', 'Azura'],
+    'Kaze': ['Mozu', 'Azura', 'Beruka'],
     'Benny': ['Peri', 'Charlotte', 'Camilla'],
-    'Arthur': ['Effie', 'Beruka', 'Camilla', 'Nyx'],
+    'Arthur': ['Effie', 'Beruka', 'Camilla', 'Nyx', 'Charlotte'],
 }
 
 partner_prefs = {
@@ -26,9 +26,9 @@ partner_prefs = {
     'Felicia': ['Leo', 'Jakob', 'Xander'],
     'Luna': ['Silas', 'Laslow', 'Xander', 'Niles', 'Jakob'],
     'Effie': ['Keaton', 'Silas', 'Arthur'],
-    'Beruka': ['Niles', 'Arthur'],
+    'Beruka': ['Niles', 'Arthur', 'Kaze'],
     'Peri': ['Laslow', 'Benny', 'Xander'],
-    'Charlotte': ['Xander', 'Keaton', 'Laslow', 'Jakob', 'Benny'],
+    'Charlotte': ['Xander', 'Keaton', 'Laslow', 'Jakob', 'Benny', 'Arthur'],
     'Mozu': ['Niles', 'Kaze'],
     'Nyx': ['Niles', 'Odin', 'Leo']
     }
