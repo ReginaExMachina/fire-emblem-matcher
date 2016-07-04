@@ -6,10 +6,6 @@
 # INITIALIZE THE CHARACTERS' DATA
 
 
-########################################################################
-
-# INITIALIZE THE CHARACTERS' DATA
-
 parent_prefs = {
     'Laslow': ['Azura', 'Peri', 'Camilla', 'Luna', 'Felicia', 'Hana', 'Oboro'],
     'Keaton': ['Camilla', 'Effie', 'Charlotte', 'Hana'],
@@ -23,9 +19,9 @@ parent_prefs = {
     'Silas': ['Luna', 'Effie', 'Oboro', 'Hinoka'],
     'Kaze': ['Mozu', 'Azura', 'Beruka', 'Rinkah'],
     'Benny': ['Peri', 'Charlotte', 'Camilla'],
-    'Arthur': ['Effie', 'Kagero', 'Beruka', 'Camilla', 'Nyx'],
+    'Arthur': ['Effie', 'Kagero', 'Beruka', 'Camilla', 'Nyx', 'Charlotte'],
     'Ryoma': ['Kagero', 'Rinkah', 'Orochi', 'Camilla'],
-    'Takumi': ['Azura', 'Felicia', 'Elise'],
+    'Takumi': ['Azura', 'Felicia', 'Elise', 'Oboro'],
     'Saizo': ['Orochi', 'Beruka', 'Mozu'],
     'Hinata': ['Hana', 'Hinoka', 'Luna', 'Setsuna'],
     'Azama': ['Effie', 'Felicia', 'Setsuna', 'Beruka'],
@@ -48,7 +44,7 @@ partner_prefs = {
     'Oboro': ['Takumi', 'Silas', 'Hinata', 'Tsubaki', 'Laslow', 'Hayato'],
     'Setsuna': ['Hinata', 'Jakob', 'Azama', 'Nishiki'],
     'Rinkah': ['Silas', 'Kaze', 'Nishiki', 'Ryoma'],
-    'Charlotte': ['Xander', 'Keaton', 'Laslow', 'Jakob', 'Benny'],
+    'Charlotte': ['Xander', 'Keaton', 'Laslow', 'Jakob', 'Benny', 'Arthur'],
     'Mozu': ['Nishiki', 'Niles', 'Kaze'],
     'Orochi': ['Saizo', 'Ryoma', 'Silas', 'Jakob', 'Odin'],
     'Nyx': ['Hayato', 'Niles', 'Odin', 'Leo']
