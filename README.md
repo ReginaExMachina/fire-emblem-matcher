@@ -34,7 +34,7 @@ For more info check out the <a href = "https://en.wikipedia.org/wiki/Stable_marr
 
 ###Issues
 
-Recording no match possible for some characters despite having free options available. Issue compounded when player picks a partner unit as a fiance.
+07/06/16 Recording no match possible for some characters despite having free options available. Issue compounded when player picks a partner unit as a fiance.  
 
 ###Author
 
