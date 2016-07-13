@@ -20,7 +20,7 @@ This program is designed to help players out.
 
 ##Getting Started
 
-TBA.
+TBA. Almost ready!
 
 ###Gale–Shapley algorithm
 
@@ -34,7 +34,7 @@ For more info check out the <a href = "https://en.wikipedia.org/wiki/Stable_marr
 
 ###Issues
 
-07/06/16 Recording no match possible for some characters despite having free options available. Issue compounded when player picks a partner unit as a fiance. Currently looking into different algorithm options to resolve this issue.
+07/06/16 Recording no match possible for some characters despite having free options available. Issue compounded when player picks a partner unit as a fiance. Currently looking into different algorithm options to resolve this issue...
 
 * Conquest branch appears to be completely unaffected by this glitch, so long as the player picks a male or 'Kamui-sexual' as their fiance.
 
