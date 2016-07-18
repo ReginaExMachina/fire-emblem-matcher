@@ -1,4 +1,4 @@
-# Public: Awakening characters and their preferences.
+# Public: Awakening characters and their pairing preferences.
 
 
 ########################################################################
