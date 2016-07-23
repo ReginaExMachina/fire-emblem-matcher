@@ -47,8 +47,8 @@ run_program = True
 def matchmaker(players_fiance):
     ''' Matches characters using the Gale-Shapley algorithm.
 
-    parent - Character proposing.
-    partner - Character evaluating proposals.
+    parent - Character proposing - a sorted list of keys.
+    partner - Character evaluating proposals - a sorted list of keys.
     engaged - Dictionary of match-mated characters.
 
     Returns engaged with all parent characters matched.
