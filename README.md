@@ -20,7 +20,7 @@ This program is designed to help players out.
 
 ##Getting Started
 
-TBA. Almost ready!
+TBA.
 
 ###Gale–Shapley algorithm
 
