@@ -22,15 +22,19 @@ This program is designed to help players out.
 
 TBA.
 
-###Gale–Shapley algorithm
+###History
 
-<code>fire-emblem-matchmaker</code> uses the Gale-Shapley algorithm to make matches.
+##Gale–Shapley algorithm
 
-With this algorithm the 'men' (or the group of proposers) typically end up with matches higher up in their preference list than the 'women' (aka the group evaluating proposals.).
+The first verison of <code>fire-emblem-matchmaker</code> used the <a href = "https://en.wikipedia.org/wiki/Stable_marriage_problem">Gale-Shapley</a> algorithm to make matches.
 
-That means we can prioritize the child-bearing units (so to speak) ensuring that they get the best possible matches. Thus in Awakening the proposer group is the female characters, but in Fates it's the males.
+With this algorithm the 'men' (or the group of proposers) typically end up with matches higher up in their preference list than the 'women' (aka the group evaluating proposals). Thus the proposer group is male in Fates and female in Awakening in order to prioritize stronger children units.
 
-For more info check out the <a href = "https://en.wikipedia.org/wiki/Stable_marriage_problem">Wiki</a>.
+However requiring both sets of characters to have preferences with all possible characters did not reflect the actual situation in the game, and changes to compensate for this lead to [breaking issues](Issues) in the final program.
+
+##Munkres aka The Hungarian Method
+
+Attempting to resolve this problem, the second verison will use the [Hungarian method](https://en.wikipedia.org/wiki/Hungarian_algorithm)
 
 ###Issues
 
@@ -47,11 +51,11 @@ For more info check out the <a href = "https://en.wikipedia.org/wiki/Stable_marr
 ###License
 
   MIT.
-  
+
 ##Acknowledgements
- 
+
  Besides my own game-play experience, data on optimizing pairings gleaned from :
- 
+
   * <a href ="http://fireemblem.wikia.com/wiki/Fire_Emblem_Wikia">Fire Emblem Wikia</a></li>
   * Serene Forest <a href = "https://serenesforest.net/wiki/index.php/Fates_Support_Conversations">support conversation database</a> for Fates</li>
   * <a href = "https://www.reddit.com/r/fireemblem/comments/1fle46/the_ideal_parent_day_14_recap/">Reddit</a>
