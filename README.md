@@ -16,7 +16,7 @@ Optimizing character pairings.
 
 Matching Fire Emblem characters can be complicated. It doesn't get any easier if you care about good supports AND making the best possible child unit for combat.
 
-This program is designed to help players out.
+This program is designed to help players out!
 
 ##Getting Started
 
