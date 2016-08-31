@@ -26,7 +26,7 @@ TBA.
 
 <code>fire-emblem-matchmaker</code> uses the Gale-Shapley algorithm to make matches.
 
-With this algorithm the 'men' (or the group proposing) typically end up with matches higher up in their preference list than the 'women' (aka the group being proposed to).
+With this algorithm the 'men' (or the group of proposers) typically end up with matches higher up in their preference list than the 'women' (aka the group evaluating proposals.).
 
 That means we can prioritize the child-bearing units (so to speak) ensuring that they get the best possible matches. Thus in Awakening the proposer group is the female characters, but in Fates it's the males.
 
