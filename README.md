@@ -34,7 +34,7 @@ However requiring both sets of characters to have preferences with all possible 
 
 ##Munkres aka The Hungarian Method
 
-Attempting to resolve this problem, the second verison will use the [Hungarian method](https://en.wikipedia.org/wiki/Hungarian_algorithm).
+Attempting to resolve this problem, the second version will use the [Hungarian method](https://en.wikipedia.org/wiki/Hungarian_algorithm).
 
 ###Issues
 
