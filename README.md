@@ -1,7 +1,7 @@
 # fire-emblem-matchmaker
 Optimizing character pairings.
 
-###Contents
+### Contents
    <ul>
     <li><a href ="https://github.com/ReginaExMachina/fire-emblem-matcher/blob/master/README.md#description">Description</a></li>
     <li><a href = "https://github.com/ReginaExMachina/fire-emblem-matcher/blob/master/README.md#getting-started">Getting Started</a></li>
@@ -12,19 +12,19 @@ Optimizing character pairings.
     <li><a href = "https://github.com/ReginaExMachina/fire-emblem-matcher/blob/master/README.md#acknowledgements">Acknowledgements</a></li>
    </ul>
 
-###Description
+### Description
 
 Matching Fire Emblem characters can be complicated. It doesn't get any easier if you care about good supports AND making the best possible child unit for combat.
 
 This program is designed to help players out!
 
-##Getting Started
+## Getting Started
 
 TBA.
 
-###History
+### History
 
-##Gale–Shapley algorithm
+## Gale–Shapley algorithm
 
 The first verison of <code>fire-emblem-matchmaker</code> used the <a href = "https://en.wikipedia.org/wiki/Stable_marriage_problem">Gale-Shapley</a> algorithm to make matches.
 
@@ -32,27 +32,27 @@ With this algorithm the 'men' (or the group of proposers) typically end up with 
 
 However requiring both sets of characters to have preferences with all possible characters did not reflect the actual situation in the game, and changes to compensate for this lead to [breaking issues](Issues) in the final program.
 
-##Munkres aka The Hungarian Method
+## Munkres aka The Hungarian Method
 
 Attempting to resolve this problem, the second version will use the [Hungarian method](https://en.wikipedia.org/wiki/Hungarian_algorithm).
 
-###Issues
+### Issues
 
 **Major Issue** 07/06/16 Recording no match possible for some characters despite having free options available. Issue compounded when player picks a partner unit as a fiance. Currently looking into different algorithm options to resolve this issue...
 
 * Conquest branch appears to be completely unaffected by this glitch, so long as the player picks a male or 'Kamui-sexual' as their fiance.
 
-###Author
+### Author
 
   <ul>
     <li>Rachel Day</li>
   </ul>
 
-###License
+### License
 
   MIT.
 
-##Acknowledgements
+## Acknowledgements
 
  Besides my own game-play experience, data on optimizing pairings gleaned from :
 
