@@ -1,13 +1,10 @@
 #Public: Matchmaking function for Fire Emblem characters.
 #
-# parent: Unit associated with the child unit, not including exceptional 
-#		  characters like Azura, Chrom or the player's unit.
+# parent: Unit associated with the child unit, not including exceptional characters like Azura, Chrom or the player's unit.
 # partner: Pairable unit.
 # engaged: Dictionary of engaged pairs.
 #
-#
 # EXAMPLE:
-#
 # {'orochi': 'saizo', 'nyx': 'hayato', 'felicia': 'leo'...}
 # ...
 #
